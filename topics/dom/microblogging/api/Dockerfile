@@ -1,4 +1,4 @@
-FROM ruby:3
+FROM ruby:3.3.0
 
 RUN apt-get update -qq && apt-get install -y build-essential libsqlite3-dev vim git
 ENV EDITOR vim
